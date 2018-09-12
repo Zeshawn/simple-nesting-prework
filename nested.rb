@@ -16,6 +16,9 @@ def hopper
         }
      }
 
+return hopper[programmer_hash][:grace_hopper]
+return hopper[programmer_hash][:alan_kay][:known_for]
+return hopper[programmer_hash][:dennis_ritchie][:languages.to_a_s]
 
 end
 
