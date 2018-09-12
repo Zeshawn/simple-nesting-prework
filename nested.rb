@@ -18,8 +18,8 @@ def hopper
 
 return hopper[programmer_hash][:grace_hopper]
 return hopper[programmer_hash][:alan_kay][:known_for]
-return hopper[programmer_hash][:dennis_ritchie][:languages.to_a_s]
-
+return hopper[programmer_hash][:dennis_ritchie][:languages.to_s]
+hopper[programmer_hash]= :adding_matz{}
 end
 
 def alan_kay_is_known_for
